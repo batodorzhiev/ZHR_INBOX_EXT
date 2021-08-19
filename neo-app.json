@@ -1,0 +1,51 @@
+{
+  "welcomeFile": "index.html",
+  "routes": [
+    {
+      "path": "/sap/opu/odata",
+      "target": {
+        "type": "destination",
+        "name": "HR3",
+        "entryPath": "/sap/opu/odata"
+      },
+      "description": "HR3"
+    },
+    {
+      "path": "/sap/bc/ui5_ui5",
+      "target": {
+        "type": "destination",
+        "name": "HR3",
+        "entryPath": "/sap/bc/ui5_ui5"
+      },
+      "description": "HR3"
+    },
+    {
+      "path": "/resources",
+      "target": {
+        "type": "service",
+        "name": "sapui5",
+        "entryPath": "/resources"
+      },
+      "description": "SAPUI5 Resources"
+    },
+    {
+      "path": "/test-resources",
+      "target": {
+        "type": "service",
+        "name": "sapui5",
+        "entryPath": "/test-resources"
+      },
+      "description": "SAPUI5 Test Resources"
+    },
+    {
+      "path": "/resources/cross/fnd/fiori/inbox",
+      "target": {
+        "type": "destination",
+        "name": "HR3",
+        "entryPath": "/sap/bc/ui5_ui5/sap/ca_fiori_inbox",
+        "preferLocal": true
+      },
+      "description": "cross/fnd/fiori/inbox Reuse Library"
+    }
+  ]
+}
